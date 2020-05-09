@@ -14,7 +14,7 @@
       }
     },
     "storageAccountSku": {
-      "type": "string",
+         "type": "string",
       "defaultValue": "Standard_LRS",
       "allowedValues": [
         "Standard_LRS",
