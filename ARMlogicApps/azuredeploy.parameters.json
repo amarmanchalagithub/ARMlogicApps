@@ -1,8 +1,24 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
-  "parameters": 
-  {
-     
+  "parameters": {
+    "workflows_mybloeprocesslogicapp_name": {
+      "value": "mybloeprocesslogicapp"
+      
+    },
+    "storageAccountName": {
+      "value": "armlogicappstrgacnt2020"
+      
+    },
+    "storageConnectionName": {
+      "value": "connection1"
+      
+    },
+    "location": {
+      "value": "[resourceGroup().location]",
+      "metadata": {
+        "description": "Location where resources reside."
+      }
+    }
   }
 }
