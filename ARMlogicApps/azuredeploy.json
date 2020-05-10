@@ -101,17 +101,7 @@
           },
           "outputs": {}
         },
-        "parameters": {
-          "$connections": {
-            "value": {
-              "azureblob": {
-                "connectionId": "[resourceId('Microsoft.Web/connections', parameters('storageConnectionName'))]",
-                "connectionName": "azureblob",
-                "id": "[subscriptionResourceId('Microsoft.Web/locations/managedApis', parameters('location'), 'azureblob')]"
-              }
-            }
-          }
-        }
+        
       }
     },
     {

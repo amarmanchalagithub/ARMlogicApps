@@ -15,7 +15,7 @@
       
     },
     "location": {
-      "value": "[resourceGroup().location]"
+      "value": "eastus"
      
       }
     }
