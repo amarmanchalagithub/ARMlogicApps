@@ -7,8 +7,8 @@
       
     },
     "storageAccountName": {
-      "value": "armlogicappstrgacnt2020"
-      
+      "value": "logicappstrgacnt2020"
+
     },
     "storageConnectionName": {
       "value": "connection1"
