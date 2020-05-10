@@ -118,12 +118,7 @@
           "accountName": "[parameters('storageAccountName')]",
           "accessKey": "[listKeys(variables('storageAccountId'), '2019-04-01').keys[0].value]"
         },
-        "testLinks": [
-          {
-            "requestUri": "[uri('https://management.azure.com:443/', concat('subscriptions/', subscription().subscriptionId, '/resourceGroups/', resourceGroup().name, '/providers/Microsoft.Web/connections/', parameters('storageConnectionName'), '/extensions/proxy/testconnection?api-version=2018-07-01-preview'))]",
-            "method": "get"
-          }
-        ]
+       
       }
     }
   ]
